@@ -1,6 +1,6 @@
 # UdS NNIA Tutorials
 
-Slides for Neural Networks Implementation and Application tutorials of Winter semester 2021 at University of Saarland.
+Slides for Neural Networks Implementation and Application tutorials of Winter semester 2022 at University of Saarland. Adapted from [the slides](https://github.com/tsimafeip/uds-nnia-tutorial-2223) created by Vilém Zouhar and Noon Pokaratsiri Goldstein for the previous edition of this class.
 
 ## Outline
 
@@ -20,17 +20,15 @@ Schedule (links provided only to semi-finished materials):
 ## Contributing
 
 Compile slides using pandoc and the provided script (handout includes notes and disables iterative lists):
-- Slides: `./build.sh machine-translation tutorial`
-- Handout version: `./build.sh machine-translation handout`
-- Both: `./build.sh machine-translation`
+- Slides: `./build.sh 01-introduction tutorial`
+- Handout version: `./build.sh 01-introduction handout`
+- Both: `./build.sh 01-introduction`
 
-Make sure you have `pandoc` and `texlive` installed. (For Anaconda users, try compiling outside an environment
-if you encounter texlive-related issues.)
-Usually the following should suffice `sudo apt install pandoc texlive-latex-base texlive-pictures texlive-latex-recommended`
+Make sure you have `pandoc` and `texlive` installed.
+Usually the following should suffice `sudo apt install pandoc texlive-latex-base texlive-pictures texlive-latex-recommended`. For Mac `brew install pandoc` and reopening terminal worked fine.
 You don't need to build the presentations if you want to contribute - editing the markdown is enough.
-If you still wish to compile them (great!) and encounter technical issues, contact me.
 
 ## License
 
 Feel free to update, present and distribute on your own accord.
-In all cases, however, preserve the names of the previous contributors.
+In all cases, however, preserve the names of the previous contributors
