@@ -120,7 +120,7 @@ no
   - Tuesday 14:15-15:45
 - Tutorials:
   - Tsimafei: Wednesday 16:15-17:45
-  - Noon: Thursday 14:15-15:45
+  - Nicholas: Thursday 14:15-15:45
 - Assignments
   - Released (usually) by Wednesday 08:00 (available in Teams)
   - Deadline (next) by Wednesday 08:00 (submit in Teams)
@@ -137,15 +137,6 @@ no
 \centering
 
 Questions?
-
-# Assignment 1
-
-- Does anybody want to present solution?
-
-. . .
-
-
-- How long does it take? Any other feedback?
 
 <!-- ## Feedback:
 - Change \textcolor{red}{TODO} to \textcolor{green}{Solution}.
@@ -191,6 +182,15 @@ Identify the following objects (Python lists):
 - $AB \neq BA$
 - $(AB)^T = B^TA^T$
 :::
+
+# Assignment 1
+
+- Does anybody want to present solution?
+
+. . .
+
+
+- How long does it take? Any other feedback?
 
 # Linear Algebra Basics
 
@@ -273,7 +273,7 @@ Identify the following objects (Python lists):
 
 # Resources
 
-1. Course Website: [lsv.uni-saarland.de/neural-networks-implementation-and-application-winter-2021-2022-2](https://www.lsv.uni-saarland.de/neural-networks-implementation-and-application-nnia-winter-2022-2023/)
+1. Course Website: [https://www.lsv.uni-saarland.de/neural-networks-implementation-and-application-nnia-winter-2022-2023/](https://www.lsv.uni-saarland.de/neural-networks-implementation-and-application-nnia-winter-2022-2023/)
 2. Piazza: <https://piazza.com/class/l9so16qqvk34hu> 
 3. Tutorial repository [https://github.com/tsimafeip/uds-nnia-tutorial-2223](https://github.com/tsimafeip/uds-nnia-tutorial-2223) (adapted from [last year edition](https://github.com/zouharvi/uds-nnia-tutorial) by Vilém Zouhar and  Noon Pokaratsiri Goldstein)
 4. Lecture & tutorial teams channels
