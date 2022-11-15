@@ -1,13 +1,13 @@
 ---
 title:
-- Introduction, PCA, SVD + Assignment 0
+- Introduction, PCA, Assignment 1-2
 subtitle: |
     | (Neural Networks Implementation and Application Tutorial)
 author:
-- Vilém Zouhar, Noon Pokaratsiri Goldstein
+- Tsimafei Prakapenka, Nicholas Gareth Jennigs
 theme:
 - Boadilla
-date: 10th November 2021
+date: 16th November 2022
 aspectratio: 169
 header-includes:
   - \AtBeginDocument{}
@@ -17,7 +17,8 @@ header-includes:
 
 - Introduction
 - Requirements, Materials, Assignments
-- PCA, SVD
+- Previous assignment
+- Linear Algebra, PCA
 - Current assignment
 - QA
 
@@ -37,30 +38,15 @@ header-includes:
 
 ## Choose and answer at least two questions:
 
-- On scale from 1-10 how proficient are you in programming and mathematics?
+- On scale from 1-10 how proficient are you in programming, mathematics, and neural networks?
 - What topics of Neural Networks excite you the most?
 - What topics of Neural Networks excite you the least?
 - What programming languages do you know?
-- How best can the tutorial sessions be helpful to your needs?
 
 ## Also the following:
 - Who is your groupmate?
-- Will you be attending Vilém's or Noon's tutorials?
-
-<!--
-from SNLP
-# Topics
-
-- Language properties, Zipf's Law, Basic statistical formalism
-- Information theory (Shannon's game, Code Length, Compression), Entropy
-- Language modelling, Backing-off models (interpolation, discounting, smoothing)
-- Text classification, Algorithms (kNN, Decision Trees, SVM, \ldots)
-- Word Sense Disambiguation, Algorithms (Dictionary based-, translation-, Collocation-based)
-- Information retrieval, Latent Semantic Analysis, Singular Value Decomposition
-- Machine Translation, Word alignment
-- POS Tagging, Named Entity Recognition 
-- - Sequence labeling (Hidden Markov models, Conditional Random Fields)
--->
+- What are you expecting from tutorials?
+- How best can the tutorial sessions be helpful to your needs?
 
 # Requirements
 
@@ -74,10 +60,8 @@ from SNLP
 
 ::: frame
 ## Tutorial Bonus Points
-- ~2pts for extra exercises in the assignments
-- 1pt for answering a question  in a tutorial
-- ??pt for fixing errors in tutorial presentations
-  - [github.com/zouharvi/uds-nnia-tutorial](https://github.com/zouharvi/uds-nnia-tutorial)
+- ~2pts for extra exercises in the assignments (if available)
+- up to 2pt for answering a question in a tutorial + presenting your HW solution
 :::
 
 \vspace{-0.5cm}
@@ -90,15 +74,15 @@ from SNLP
 
 :::: column
 ## Transfer from last year
-- Maybe possible (tbd)
+- Yes
 - Assignments recommended (because of the exam)
 ::::
 :::
 
 # What's available
 
-- Lectures by Prof. Klakow (recorded)
-- Tutorials (not recorded, but allowed for private sharing)
+- Lectures by Prof. Klakow (onsite)
+- Tutorials (online with Tsimafei and onsite with Nicholas)
 - Corrected homework
 - Consultations
   - Only in specific cases
@@ -121,11 +105,10 @@ no
 
 # Assignments
 
-- Mandatory groups of 2
-- Usually 2 exercises per assignment + a possible bonus question
+- Mandatory groups of 2 or 3
 - Jupyter notebook templates
   - Assignment + solution in the same notebook
-  - Can use Google Colab or local runtime
+  - Use Google Colab or local runtime
   - Write solutions in Python files and import them
   - Submitted notebook must only contain your analysis and outputs
 - Only one submission per group
@@ -136,8 +119,8 @@ no
 - Lecture:
   - Tuesday 14:15-15:45
 - Tutorials:
-  - Vilém: Wednesday 16:00-18:00
-  - Noon: Thursday 08:30-10:00
+  - Tsimafei: Wednesday 16:15-17:45
+  - Noon: Thursday 14:15-15:45
 - Assignments
   - Released (usually) by Wednesday 08:00 (available in Teams)
   - Deadline (next) by Wednesday 08:00 (submit in Teams)
@@ -145,7 +128,7 @@ no
 
 # Tutorial Content
 
-- Review of the topics covered in class
+- Review of the topics covered in class + live coding sessions
 - Presentation of the past assignment
 - Discussing the current assignment
 
@@ -155,16 +138,19 @@ no
 
 Questions?
 
-# Assignment 0
+# Assignment 1
 
-- Questions?
-- Did it work?
-- How long did it take?
+- Does anybody want to present solution?
 
-## Feedback:
+. . .
+
+
+- How long does it take? Any other feedback?
+
+<!-- ## Feedback:
 - Change \textcolor{red}{TODO} to \textcolor{green}{Solution}.
 - Don't forget to write amount of work.
-  - Useful for our estimates of difficulty.
+  - Useful for our estimates of difficulty. -->
 
 # Linear Algebra Basics
 
@@ -223,14 +209,6 @@ Identify the following objects (Python lists):
 >   - Assume ordering of \{eigen,singular\}values from highest to lowest
 >   - Project to $k$ dimensions: $A_k = A Q_k$
 
-## True or False? ![](img/thinking_face.png){width=15px}
-- Every real matrix has an eigenvalue decomposition (in $\mathbb{R}$).
-<!-- No, non-square matricies don't. -->
-- Every real matrix has a singular value decomposition (in $\mathbb{R}$).
-<!-- Yes. -->
-- Every real symmetric matrix has an eigenvalue decomposition (in $\mathbb{R}$).
-<!-- Yes. -->
-
 # Linear Algebra Basics - True or False? ![](img/monocle_face.png){width=15px}
 
 \qquad $A = \begin{pmatrix} 4 & 2 \\ 2 & 4 \end{pmatrix}$
@@ -250,7 +228,7 @@ Identify the following objects (Python lists):
 
 ## Questions ![](img/monocle_face.png){width=15px}
 > - What will be the first principal component?
-> - Does anyone know how PCA works?
+> - What is the motivation behind PCA?
 > - What does it mean that we take only $k$ largest principal components?
 
 <!-- 
@@ -263,7 +241,7 @@ Identify the following objects (Python lists):
 ```
 -->
 
-# PCA
+<!-- # PCA
 
 - Is it safe to say that the first component will always contain the most important information? ![](img/thinking_face.png){width=15px}
 
@@ -277,7 +255,7 @@ Identify the following objects (Python lists):
 :::: column
 ![](img/pca_7.png)
 ::::
-:::
+::: -->
 
 # Standardization
 
@@ -289,19 +267,13 @@ Identify the following objects (Python lists):
 
 - Why do we need standardization for PCA? ![](img/thinking_face.png){width=15px}
 
-# Assignment 1
+# Assignment 2
 
 - Any questions?
 
-# Typesetting Tips
-
-- Do **not** write $A*B$, use `\cdot` or `\times`: $A\cdot B, A \times B$.
-- Use LaTeX functions when available, e.g. `\log, \sin`: $\log(x), \sin(x)$, **not** $log(x), sin(x)$.
-- Do **not** write plain text in math mode, use `$\text{ComputeEigenvalues}(X)$`
-
 # Resources
 
-1. Course Website: [lsv.uni-saarland.de/neural-networks-implementation-and-application-winter-2021-2022-2](https://www.lsv.uni-saarland.de/neural-networks-implementation-and-application-winter-2021-2022-2/)
-2. Piazza: <https://piazza.com/class/kvc3vzhsvh55rt> 
-3. Tutorial repository [github.com/zouharvi/uds-nnia-tutorial](https://github.com/zouharvi/uds-nnia-tutorial)
+1. Course Website: [lsv.uni-saarland.de/neural-networks-implementation-and-application-winter-2021-2022-2](https://www.lsv.uni-saarland.de/neural-networks-implementation-and-application-nnia-winter-2022-2023/)
+2. Piazza: <https://piazza.com/class/l9so16qqvk34hu> 
+3. Tutorial repository [https://github.com/tsimafeip/uds-nnia-tutorial-2223](https://github.com/tsimafeip/uds-nnia-tutorial-2223) (adapted from [last year edition](https://github.com/zouharvi/uds-nnia-tutorial) by Vilém Zouhar and  Noon Pokaratsiri Goldstein)
 4. Lecture & tutorial teams channels
