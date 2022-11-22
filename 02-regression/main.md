@@ -1,13 +1,13 @@
 ---
 title:
-- Regression + Assignments 1, 2
+- Regression + Assignments 2, 3
 subtitle: |
     | (Neural Networks Implementation and Application Tutorial)
 author:
-- Vilém Zouhar, Noon Pokaratsiri Goldstein
+- Tsimafei Prakapenka, Nicholas Gareth Jennigs
 theme:
 - Boadilla
-date: 17th November 2021
+date: 24th November 2022
 aspectratio: 169
 header-includes:
   - \usepackage{graphicx}
@@ -19,27 +19,12 @@ header-includes:
 
 # Overview 
 
-- Assignment 1
-- Regression
 - Assignment 2
+- Regression
+- Assignment 3
 
-# Update
 
-\centering
-
-Up to 2 points for participation.
-
-# Assignment 1
-
-##  Organization
-- Late submissions (>10mins) will not be accepted unless previously agreed upon
-- Other questions?
-
-## Notes
-- Very nice solutions!
-- Reconstruction error on original space, not standardized (we did the same mistake \upside )
-
-# Assignment 1
+# Assignment 2
 
 - \emph{Tutor cue:} go through the assignment
 - Questions?
@@ -110,7 +95,7 @@ $$
 > - Large variance corresponds to ...?
 >   - Overfitting
 
-# Assignment 2
+# Assignment 3
 
 - Any questions?
 
