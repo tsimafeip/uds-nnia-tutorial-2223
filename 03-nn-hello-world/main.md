@@ -1,13 +1,13 @@
 ---
 title:
-- Neural Networks Hello World + Assignments 2, 3
+- Neural Networks Hello World + Assignments 3, 4
 subtitle: |
     | (Neural Networks Implementation and Application Tutorial)
 author:
-- Vilém Zouhar, Noon Pokaratsiri Goldstein
+- Nicholas Gareth Jennings, Tsimafei Prakapenka
 theme:
 - Boadilla
-date: 24th, 25th November 2021
+date: 1st December 2022
 aspectratio: 169
 header-includes:
   - \usepackage{graphicx}
@@ -21,30 +21,16 @@ header-includes:
 
 # Overview 
 
-- Organization - Bonus points
-- Assignment 2
+- Assignment 3
 - Gradient
 - PyTorch's Autograd
 - NN Hello World
-- Assignment 3
+- Assignment 4
 
-# Organization - Bonus points
 
-- 2 points for solution presentation
-- 1-2 points for session contribution
-- Max 2 points per session
-
-# Assignment 2
+# Assignment 3
 
 - *Tutor cue:* go through the assignment
-- Typesetting:
-  - $test accuracy = 0.5$ or $\text{test accuracy} = 0.5$?
-    - `$\text{test accuracy} = 0.5$`
-  - The `*` symbol is used for convolution. Use `\cdot` instead.
-    - $a * b$, $a\cdot b$
-- Cheating
-  - Discussion vs. blatant copying
-- What were the biggest issues? Coding or theory?
 - Do you feel they are too easy/hard?
 - Do you feel they are unrelated to the lecture content?
 
@@ -121,7 +107,7 @@ assert np.isclose(y.grad, 2)
 ::::
 :::
 
-# Assignment 3
+# Assignment 4
 
 - Any questions?
 
